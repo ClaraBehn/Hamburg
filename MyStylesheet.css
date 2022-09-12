@@ -348,4 +348,8 @@ li:hover {
     :root {
         --textsize: 14px;
     }
+    h1 {
+        font-size: 19px;
+        ;
+    }
 }
