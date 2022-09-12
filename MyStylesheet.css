@@ -278,6 +278,22 @@ li:hover {
     .left {
         position: relative;
     }
+    .left2{
+        width: 88vw;
+    }
+    .right2{
+        width: 88vw;
+        float: left;
+    }
+    .right3{
+        width: 88vw;
+        height: auto;
+        float: left;
+        padding-left: 5vw;
+    }
+    .left3{
+        width: 88vw;
+    }
 }
 
 @media only screen and (max-width: 1350px) {
