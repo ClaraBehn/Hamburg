@@ -344,3 +344,8 @@ li:hover {
     }
 
 }
+@media only screen and (max-width: 400px) {
+    :root {
+        --textsize: 14px;
+    }
+}
