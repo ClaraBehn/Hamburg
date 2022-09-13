@@ -105,6 +105,12 @@ a {
     padding-left: 2.5%;
     padding-right: 2.5%;
 }
+address{
+    font-size: var(--textsize);
+}
+address>a{
+    color: #ac6711;
+}
 
 ul {
     display: flex;
