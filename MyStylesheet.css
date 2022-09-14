@@ -127,6 +127,9 @@ ul {
 
 li {
     white-space: nowrap;
+    font-size: var(--textsize);
+    font-family: Georgia;
+    color: white;
     padding-bottom: 0.3%;
     padding-top: 0.3%;
     margin-bottom: 0.3%;
