@@ -2,6 +2,8 @@
     --light: #f4c790;
     --dark: #ac6711;
     --textsize: 25px;
+    --VMLength: 208px;
+    --SLength: 240px;
 }
 
 
@@ -225,7 +227,7 @@ li {
     display: none;
     position: absolute;
     background-color: var(--dark);
-    width: 195px;
+    width: var(--VMLength);
     padding-top: 10px;
     padding-bottom: 12px;
     border-radius: 5px;
@@ -242,7 +244,7 @@ li {
     display: none;
     position: absolute;
     background-color: var(--dark);
-    width: 240px;
+    width: var(--SLength);
     padding-top: 10px;
     padding-bottom: 12px;
     border-radius: 5px;
@@ -340,6 +342,8 @@ li:hover {
 @media only screen and (max-width: 620px) {
     :root {
         --textsize: 18px;
+        --VMLength: 146px;
+        --SLength: 168px;
     }
 
     h1 {
@@ -395,6 +399,8 @@ li:hover {
 @media only screen and (max-width: 400px) {
     :root {
         --textsize: 14px;
+        --VMLength: 111px;
+        --SLength: 130px;
     }
 
     h1 {
