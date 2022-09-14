@@ -105,10 +105,12 @@ a {
     padding-left: 2.5%;
     padding-right: 2.5%;
 }
-address{
+
+address {
     font-size: var(--textsize);
 }
-address>a{
+
+address>a {
     color: #ac6711;
 }
 
@@ -308,7 +310,8 @@ li:hover {
         float: left;
         padding-left: 5vw;
         padding-right: 5vw;
-        display: block;
+        display: flex;
+        justify-content: center;
         position: relative;
         padding-top: 0%;
     }
@@ -340,15 +343,18 @@ li:hover {
         font-size: 22px;
         ;
     }
-    footer{
+
+    footer {
         height: 80px;
-    }
-    .logo{
-        height: 35px;
     }
 
     .left img {
-        width: 80%;
+        width: 85%;
+        padding-left: 4vw;
+    }
+
+    .logo {
+        height: 35px;
     }
 
     .right2 {
@@ -378,13 +384,7 @@ li:hover {
 
     .left {
         width: 88vw;
-        display: flex;
-        justify-content: flex-start;
         flex-wrap: nowrap;
-    }
-
-    .left img {
-        float: left;
     }
 
 }
@@ -397,10 +397,12 @@ li:hover {
     h1 {
         font-size: 19px;
     }
-    footer{
+
+    footer {
         height: 60px
     }
-    .logo{
+
+    .logo {
         height: 28px;
     }
 }
