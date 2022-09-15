@@ -50,7 +50,7 @@ footer {
     background-image: url("footer.jpg");
     display: flex;
     justify-content: center;
-   margin: 0%;
+    margin: 0%;
 }
 
 footer>div {
@@ -139,11 +139,12 @@ li {
     padding-right: 3vw;
 }
 
-.break{
+.break {
     width: 100%;
     height: 5vh;
     padding: 0%;
 }
+
 .para {
     margin-top: 0%;
 }
