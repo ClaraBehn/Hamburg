@@ -14,6 +14,7 @@ html {
 body {
     background-color: var(--light);
     margin: 0%;
+    width: 100%;
 }
 
 header {
@@ -49,8 +50,7 @@ footer {
     background-image: url("footer.jpg");
     display: flex;
     justify-content: center;
-    margin-top: 10%;
-    padding: 0%;
+   margin: 0%;
 }
 
 footer>div {
@@ -139,6 +139,14 @@ li {
     padding-right: 3vw;
 }
 
+.break{
+    width: 100%;
+    height: 5vh;
+    padding: 0%;
+}
+.para {
+    margin-top: 0%;
+}
 
 .map {
     flex-wrap: wrap;
@@ -339,7 +347,7 @@ li:hover {
     }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 730px) {
     :root {
         --textsize: 18px;
         --VMLength: 146px;
