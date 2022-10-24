@@ -1,7 +1,7 @@
 :root {
     --light: #f4c790;
     --dark: #ac6711;
-    --textsize: 25px;
+    --textsize: 26px;
     --VMLength: 208px;
     --SLength: 240px;
 }
@@ -139,13 +139,13 @@ li {
     padding-right: 3vw;
 }
 
-.break {
+.break { /*fügt Abstandt zwischen Impressum und Footer ein*/
     width: 100%;
     height: 5vh;
     padding: 0%;
 }
 
-.para {
+.para { /*benutzt für <p> im Impressum*/
     margin-top: 0%;
 }
 
@@ -153,6 +153,7 @@ li {
     flex-wrap: wrap;
 }
 
+/* left und right wird genutzt, um die Seite in zwei Spalten zu unterteilen*/
 .left2 {
     width: 35vw;
     height: auto;
@@ -207,12 +208,12 @@ li {
     margin-bottom: 100px;
 }
 
-.nomap {
+.nomap { /* wird für Home und fürs Impressum genutzt*/
     text-align: center;
     display: block;
 }
 
-.drop {
+.drop { /*das Map drop down Menü*/
     display: none;
     position: absolute;
     background-color: var(--dark);
@@ -229,7 +230,7 @@ li {
     padding-left: 1vw;
 }
 
-.drop2 {
+.drop2 { /*das Sightseeing drop down Menü*/
     display: none;
     position: absolute;
     background-color: var(--dark);
@@ -250,21 +251,21 @@ li {
     color: var(--light);
 }
 
-.underlined {
+.underlined { /*für Links die unterstrichen werden sollen*/
     color: #ac6711;
     text-decoration: underline;
     padding-left: 0%;
     padding-right: 0%;
 }
 
-.logo {
+.logo { /*für die Bildverlinkungen im Footer*/
     -webkit-filter: invert(1);
     filter: invert(1);
     height: 40px;
     width: auto;
 }
 
-.loli {
+.loli { /*für die Formatierung der Links im Footer*/
     padding-bottom: 0%;
     padding-top: 0.6%;
 }
@@ -293,7 +294,7 @@ li:hover {
     transform: scale(1.1);
 }
 
-.fake{
+.fake{ /*bei großen Bildschirmen sorgt der Container für einen größeren Abstand zum Footer bei Home*/
     width: 100%;
     height: 0%;
     padding: 0%;
